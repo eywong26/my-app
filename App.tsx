@@ -11,6 +11,8 @@ import {
   View,
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native';
+import Button from './src/components/Button';
 import { Session } from '@supabase/supabase-js';
 import { supabase } from './lib/supabase';
 
